@@ -18,7 +18,7 @@ for img_name in os.listdir(path):
     cv.destroyWindow(img_name)
     i = 1
     while i:
-        which_class = input("s : show again, x : exit, w : write class, b : go back, [1,2,3,4,5] assign label : ")
+        which_class = input("s : show again, x : exit, w : write class, b : go back, [0,1,2,3,4,5] assign label : ")
         if which_class == "x":
             print("exit")
             i = 0
