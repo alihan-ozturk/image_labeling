@@ -5,7 +5,6 @@ import os
 class_names = {0: "x1", 1: "x2", 2: "x3", 3: "x4", 4: "x5", 5: "x6"}
 path = "C:\\Users\\Alihan\\Desktop\\ds"
 labels = dict()
-labels_array = np.array([])
 last_imgs = []
 
 for img_name in os.listdir(path):
